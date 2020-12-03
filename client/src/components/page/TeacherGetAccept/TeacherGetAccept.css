@@ -1,0 +1,7 @@
+.TeacherGetAccept{
+    height:  89vh;
+    overflow: scroll;
+}
+.TeacherGetAccept::-webkit-scrollbar{
+    display: none;
+}

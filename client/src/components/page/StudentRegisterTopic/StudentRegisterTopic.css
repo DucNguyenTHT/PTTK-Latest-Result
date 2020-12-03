@@ -1,0 +1,7 @@
+.StudentRegisterTopic{
+    height:  89vh;
+    overflow: scroll;
+}
+.StudentRegisterTopic::-webkit-scrollbar{
+    display: none;
+}

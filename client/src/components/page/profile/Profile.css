@@ -1,0 +1,87 @@
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
+}
+.w-40{
+    width: 40%;
+}
+
+.w-10{
+    width: 10%;
+}
+.w-3{
+    width: 3%;
+}
+.w-17{
+    width: 17%;
+}
+
+.w-50{
+    width: 50%;
+}
+.w-83{
+    width: 83%;
+}
+.w-100{
+    width: 100%;
+}
+
+.pd-top-5 {
+    padding-top: 5px;
+}
+
+.pd-top-10 {
+    padding-top: 10px;
+}
+
+.mg-top-5 {
+    margin-top: 5px;
+}
+
+.mg-top-10 {
+    padding-top: 10px;
+}
+
+.mg-top-50 {
+    margin-top: 50px;
+}
+
+.profile_ref {
+    display: flex;
+}
+
+.profile_left {
+    text-align: center;
+    width: 700px;
+    align-items: center;
+}
+
+.profile_left .fix-img img {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow:  0 12px 20px -10px rgba(0, 172, 193,.28), 0 4px 20px 0 rgba(0, 0, 0,.12), 0 7px 8px -5px rgba(0, 172, 193,.2);
+}
+
+.profile_right {
+    overflow: scroll;
+    height: 80vh;
+}
+
+.profile_right::-webkit-scrollbar{
+    display: none!important;
+}
+
+.profile_right form {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.MuiFormControl-root {
+    margin-top: 15px!important;
+}
+

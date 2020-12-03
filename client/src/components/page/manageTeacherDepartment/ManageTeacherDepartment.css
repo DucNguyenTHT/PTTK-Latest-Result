@@ -1,0 +1,7 @@
+.ManageTeacherDepartment{
+    height:  89vh;
+    overflow: scroll;
+}
+.ManageTeacherDepartment::-webkit-scrollbar{
+    display: none;
+}

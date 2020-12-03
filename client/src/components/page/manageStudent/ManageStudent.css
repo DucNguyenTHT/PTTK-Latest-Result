@@ -1,0 +1,7 @@
+.ManageStudent{
+    height:  89vh;
+    overflow: scroll;
+}
+.ManageStudent::-webkit-scrollbar{
+    display: none;
+}

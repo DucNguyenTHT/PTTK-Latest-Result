@@ -1,0 +1,8 @@
+.ManageMajor{
+    height: 89vh;
+    overflow: scroll;
+}
+
+.ManageMajor::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,7 @@
+.ManageTeacher{
+    height:  89vh;
+    overflow: scroll;
+}
+.ManageTeacher::-webkit-scrollbar{
+    display: none;
+}

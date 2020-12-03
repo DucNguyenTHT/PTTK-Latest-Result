@@ -1,0 +1,7 @@
+.ManageTopic{
+    height:  89vh;
+    overflow: scroll;
+}
+.ManageTopic::-webkit-scrollbar{
+    display: none;
+}

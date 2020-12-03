@@ -1,0 +1,134 @@
+.container {
+    position: relative;
+    z-index: 4;
+    height: 100vh;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.side_bar::after{
+    opacity: .8;
+    background: #000;
+
+}
+.side_bar::after, .side_bar::before{
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    content: "";
+    display: block;
+    z-index: 3;
+    position: absolute;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container a{
+    text-decoration: none;
+}
+.Sidebar_header {
+    padding: 18px 30px;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+.Sidebar_header a {
+    display: flex;
+    text-decoration: none;
+    margin: 0 auto;
+    align-items: center;
+}
+.Sidebar_header a .logo{
+    line-height: 0;
+}
+.Sidebar_header a .logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Sidebar_header a span{
+    font-size: 18px;
+    margin-left: 15px ;
+    color:white;
+}
+
+.Sidebar_header a span:hover{
+    font-size: 18px;
+    margin-left: 15px ;
+   
+}
+
+.sidebar_content {
+    padding: 0 12px;
+    margin-top: 15px ;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+.sidebar_content a Button{
+    margin-top: 10px ;
+    width:100%;
+    height:50px;
+    padding: 10px 15px;
+    background: transparent;
+    text-align: right;
+    color: #fff;
+    overflow: hidden;
+    text-align: left;
+    text-transform: none;
+}
+
+.sidebar_content a.main-nav-active Button{
+    box-shadow: 0 12px 20px -10px rgba(0, 172, 193,.28), 0 4px 20px 0 rgba(0, 0, 0,.12), 0 7px 8px -5px rgba(0, 172, 193,.2);
+    background-color: #00acc1;
+}
+.sidebar_content a Button i{
+    font-size: 28px;
+    float: left;
+    width: 30px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.sidebar_content a Button span{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sidebar_content Button:hover{
+    background: hsla(0,0%,100%,.13);
+    opacity: 1;
+}
+
+/* .sidebar_content Button:focus{
+    background-color: cyan;
+    color: salmon;
+} */
+
+.sidebar_footer {
+    padding: 0 12px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 90%;
+    text-align: center; 
+    color: whitesmoke; 
+}
+
+.sidebar_footer a{
+    text-decoration: none;
+}
+
+.sidebar_footer a:visited{
+    color: whitesmoke; 
+}
+
+.sidebar_footer a:hover{
+    color: red; 
+}
+
+.dpnone{
+    display: none;
+}

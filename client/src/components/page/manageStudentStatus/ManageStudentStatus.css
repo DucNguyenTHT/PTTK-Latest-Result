@@ -1,0 +1,7 @@
+.ManageStatus{
+    height:  89vh;
+    overflow: scroll;
+}
+.ManageStatus::-webkit-scrollbar{
+    display: none;
+}

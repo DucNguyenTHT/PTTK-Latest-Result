@@ -1,0 +1,7 @@
+.ManageDepartment{
+    height:  89vh;
+    overflow: scroll;
+}
+.ManageDepartment::-webkit-scrollbar{
+    display: none;
+}

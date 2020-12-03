@@ -1,0 +1,33 @@
+* {
+    box-sizing: inherit;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+
+}
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+.side_bar {
+    min-width: 260px;
+    max-width: 260px;
+    height: 100%;
+    bottom: 0;
+    background: url(./components/layout/img/sidebar.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    z-index: 3;
+    opacity: 1;
+}
+
+.right {
+    width: 100%;
+    background: rgba(203,203,210,.15);
+    
+}
